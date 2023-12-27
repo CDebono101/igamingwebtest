@@ -1,0 +1,70 @@
+body{
+    background-color: #61B7C5;
+}
+
+.main{
+    background-color: #61B7C5;
+    height: 750px;
+}
+
+.footer{
+    background-color: #B59737;
+    height: 80px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+
+.style{
+    font-size: 40px;
+    font-family: "Bauhaus 93";
+    color: #707070;
+}
+
+#logo{
+    border: solid #707070 3px;
+}
+
+#lnslink{
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+#login{
+    margin-right: 30px;
+}
+
+.m2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.style2{
+    font-size: 40px;
+    font-family: "Bauhaus 93";
+    color: #707070;
+    margin-left: 30%;
+}
+
+.logolink{
+    width: 325px;
+    height: 350px;
+    margin-top: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.style3{
+    font-size: 40px;
+    font-family: "Bauhaus 93";
+    color: #707070;
+}
