@@ -4,7 +4,7 @@ body{
 }
 
 .left{
-    height: 1160px;
+    height: 1110px;
 }
 
 #logo{
@@ -13,7 +13,7 @@ body{
 }
 
 .right{
-    height: 1150px;
+    height: 1110px;
     width: 1000px;
     display: flex;
     justify-content: center;
@@ -86,4 +86,21 @@ body{
     font-size: 30px;
     font-family: "Bauhaus 93";
     color: #676356;
+}
+
+@media only screen and (max-width: 1440px){
+    
+    .left{
+        height: 1050px;
+    }
+
+    #logo{
+        width: 800px;
+        height: 100%;
+    }
+
+    .right{
+        height: 1050px;
+    }
+
 }
