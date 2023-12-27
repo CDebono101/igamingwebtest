@@ -29,8 +29,23 @@ body{
 }
 
 #lnslink{
-    margin-right: 80px;
-    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    justify-content: first baseline;
+    margin-right: 5%;
+}
+
+
+#lnslink2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 500px;
+    align-content: center;
+    justify-content: first baseline;
+    margin-right: 5%;
 }
 
 #login{
@@ -39,6 +54,7 @@ body{
 
 .m2{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
