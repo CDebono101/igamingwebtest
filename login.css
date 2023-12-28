@@ -1,6 +1,7 @@
 body{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .left{
@@ -8,13 +9,12 @@ body{
 }
 
 #logo{
-    width: 1080px;
+    width: 100%;
     height: 100%;
 }
 
 .right{
     height: 1110px;
-    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,19 +88,90 @@ body{
     color: #676356;
 }
 
-@media only screen and (max-width: 1440px){
-    
-    .left{
-        height: 1050px;
-    }
+@media only screen and (max-width: 2560px){
 
-    #logo{
-        width: 800px;
-        height: 100%;
+        
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     .right{
         height: 1050px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left{
+        height: 600px;
+        width: 600px;
+        border: solid #707070 2px;
+    }
+}
+
+@media only screen and (max-width: 1440px ) {
+    
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .right{
+        height: 1050px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left{
+        height: 600px;
+        width: 600px;
+        border: solid #707070 2px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .left{
+        height: 250px;
+        width: 250px;
+        border: solid #707070 2px;
+        margin-top: 2%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .left{
+        height: 400px;
+        width: 400px;
+        border: solid #707070 2px;
+        margin-top: 5%;
     }
 
 }
