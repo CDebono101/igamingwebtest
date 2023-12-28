@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link href="./login.css" rel="stylesheet" type="text/css">
+    <script>
+        function welcome(){
+            alert("You are Logged In!");
+        }
+    </script>
 </head>
 <body style="background-color: #61B7C5;">
     <div class="left">
@@ -21,8 +26,8 @@
                     <input id="password" type="password" placeholder="Password" required>
                 </div>
                 <div id="buttond">
-                    <a href="./home2.html">
-                        <input id="button" type="button" value="GO!">
+                    <a href="./games2.html">
+                        <input id="button" onclick="welcome()" type="button" value="GO!">
                     </a>    
                 </div>
                 <div>
