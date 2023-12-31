@@ -37,6 +37,13 @@ body{
     margin-right: 5%;
 }
 
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #lnslink2{
     display: flex;
@@ -56,7 +63,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 10px;
 }
 
@@ -64,7 +71,6 @@ body{
     font-size: 40px;
     font-family: "Bauhaus 93";
     color: #707070;
-    margin-left: 30%;
 }
 
 .logolink{
@@ -83,4 +89,175 @@ body{
     font-size: 40px;
     font-family: "Bauhaus 93";
     color: #707070;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    .main{
+        background-color: #61B7C5;
+        height: 980px;
+    }
+
+    .m2{
+        margin-top: 100px;
+    }
+
+    .style_5{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1440px){
+
+    .m2{
+        margin-top: 100px;
+    }
+
+    .style_5{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px){
+
+    .style3 {
+        font-size: 30px;
+        font-family: "Bauhaus 93";
+        color: #707070;
+        margin-top: 20px;
+    } 
+
+    .style_5{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .m2{
+        margin-top: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .main{
+        background-color: #61B7C5;
+        height: 1300px;
+    }
+
+    .style3 {
+        font-size: 30px;
+        font-family: "Bauhaus 93";
+        color: #707070;
+    }
+
+    .style_5{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+        background-color: #B59737;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    .main{
+        background-color: #61B7C5;
+        height: 1900px;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;   
+        align-items: center;
+    }
+
+    #lnslink{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .style3 {
+        font-size: 30px;
+        font-family: "Bauhaus 93";
+        color: #707070;
+    }
+
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+        background-color: #B59737;
+        height: 190px;
+    }
+
+}
+
+@media only screen and (max-width: 325px){
+
+    .main{
+        background-color: #61B7C5;
+        height: 1900px;
+    }
+
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;   
+        align-items: center;
+    }
+
+    #lnslink{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-content: center;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .style3 {
+        font-size: 20px;
+        font-family: "Bauhaus 93";
+        color: #707070;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-content: start;
+        background-color: #B59737;
+        height: 190px;
+    }
+
 }
