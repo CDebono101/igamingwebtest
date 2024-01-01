@@ -8,7 +8,6 @@ body{
 .main{
     background-color: #61B7C5;
     height: 750px;
-    
 }
 
 .header{
@@ -28,6 +27,17 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 70px;
+}
+
+#btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid #707070 2px;
+    color: #707070;
+    font-family: "Bauhaus 93";
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .imgs{
@@ -50,7 +60,7 @@ body{
 
 .footer{
     background-color: #B59737;
-    height: 80px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -133,6 +143,11 @@ body{
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;   
+    }
+
+    .main{
+        background-color: #61B7C5;
+        height: 1500px;
     }
 
     .style{
