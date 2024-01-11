@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link href="./login.css" rel="stylesheet" type="text/css">
+    <script>
+        function welcome(){
+            alert("You are Logged In!");
+        }
+    </script>
 </head>
-<body>
-    <h1>Hello</h1>
+<body style="background-color: #61B7C5;">
+    <div class="left">
+        <img id="logo" src="./La_Playa_Casino_Logo.png" alt="Casino Logo">
+    </div>
+    <div class="right">
+        <div class="fbackground">
+            <div class="form">
+                <div id="title">Login</div>
+                <div id="unamed">
+                    <input id="username" type="text" placeholder="Username" required>
+                </div>
+                <div id="passwordd">
+                    <input id="password" type="password" placeholder="Password" required>
+                </div>
+                <div id="buttond">
+                    <a href="./games2.html">
+                        <input id="button" onclick="welcome()" type="button" value="GO!">
+                    </a>    
+                </div>
+                <div>
+                    <a id="fp" href="">Forgot Password?</a>
+                </div>
+                <div class="style">
+                    Not a Member?
+                </div>
+                <div>
+                    <a class="style" href="./signup.html">Register!</a> 
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
