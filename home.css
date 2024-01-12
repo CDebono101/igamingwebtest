@@ -218,7 +218,8 @@ body{
         flex-direction: column;
         align-content: start;
         background-color: #B59737;
-        height: 190px;
+        height: 200px;
+        margin-top: 110%;
     }
 
 }
